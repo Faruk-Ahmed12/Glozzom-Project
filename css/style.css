@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: #000 !important;
+}
+
+.nav-item {
+    padding-left: 1em !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #dde1e7 !important;
+}
+
+/* Start Slider  */
+.Slider-image {
+    max-height: 550px;
+}
+
+.icon i {
+    font-size: 50px;
+}
+
+/* are you ready section  */
+#are-you-section {
+    background: #000;
+}
+
+#are-you-section {
+    background: url(../image/bg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 270px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.are-img-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 250px;
+}
+
+/* play video  */
+#play-utube {
+    background: url(../image/people.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 280px;
+    position: relative;
+}
+
+.play-video i {
+    font-size: 45px;
+    color: red;
+}
+
+.bg-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    left: 0;
+    top: 0;
+    min-height: 280px;
+    width: 100%;
+}
+
+/* End play video  */
+
+/* gellary section  */
+#photo-gellary img {
+    min-height: 250px;
+}
+
+/* footer  */
+#footer {
+    background: #000;
+}
+
+
+/* Start about us page css  */
+#about-header {
+    background: url('../image/image1.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+}
+
+
+/* Start what we do  */
+.what-we-img {
+    border-radius: 50%;
+}
+
+/* Start Our Product  */
+.product-icon {
+    font-size: 50px;
+
+}
+.alg5 h2 {
+    margin-top: -5px;
+}
+
+#product .card {
+    margin-bottom: 20px;
+}
+
+/* testimonial  */
+#testimonial .slick-prev::before {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    font-weight: 500;
+}
+#testimonial .slick-next::before {
+    color: rgb(0, 68, 255);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* Start Services page header css  */
+#services-page-header {
+    background: url('../image/image3.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+}
+
+/* Start blog Page Header css */
+
+#blog-page-header {
+    background: url('../image/image6.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+}
+
+.local-img-blog {
+    height: 300px;
+}
+
+/* contact page css  */
+#contact-page-header {
+    background: url('../image/image2.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+}
+
+
+/* Responsive Start  */
+@media (max-width: 767px) {
+    #are-you-section {
+        min-height: 320px;
+    }
+
+    .are-img-overlay {
+        min-height: 280px;
+    }
+}
+
+@media (max-width: 530px) {
+    #are-you-section {
+        min-height: 400px;
+    }
+
+    .are-img-overlay {
+        min-height: 400px;
+    }
+}
+
+@media (max-width: 420px) {
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+
+    .carousel-caption p {
+        font-size: 15px;
+    }
+
+    .carousel-caption button {
+        font-size: 15px;
+    }
+}
